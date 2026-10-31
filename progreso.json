@@ -4,7 +4,7 @@
   "integrantes": [
     "Sebastian Gonzalez"
   ],
-  "actualizado": "2026-10-31T16:52:32.251Z",
+  "actualizado": "2026-10-31T16:53:51.684Z",
   "entorno": {
     "node": "v24.2.0",
     "sistema": "win32 x64"
@@ -69,6 +69,26 @@
       "ultima": "2026-10-31T16:52:36.595Z",
       "comprobaciones": "4/4",
       "evidencia": "docker 29.9.2; imagen sha256:137e7e0cd380"
+    },
+    "6": {
+      "titulo": "Extra: datos que sobreviven en un volumen",
+      "puntos": 10,
+      "extra": true,
+      "ok": true,
+      "primeraVez": "2026-10-31T16:53:22.652Z",
+      "ultima": "2026-10-31T16:53:22.652Z",
+      "comprobaciones": "3/3",
+      "evidencia": "docker 29.9.2; volumen"
+    },
+    "7": {
+      "titulo": "Extra: el mismo resultado con los dos motores",
+      "puntos": 10,
+      "extra": true,
+      "ok": false,
+      "primeraVez": null,
+      "ultima": "2026-10-31T16:53:52.030Z",
+      "comprobaciones": "0/1",
+      "evidencia": "docker 29.9.2"
     }
   }
 }
