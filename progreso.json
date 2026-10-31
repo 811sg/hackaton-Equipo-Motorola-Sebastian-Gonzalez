@@ -4,7 +4,7 @@
   "integrantes": [
     "Sebastian Gonzalez"
   ],
-  "actualizado": "2026-10-31T16:44:30.029Z",
+  "actualizado": "2026-10-31T16:45:16.878Z",
   "entorno": {
     "node": "v24.2.0",
     "sistema": "win32 x64"
@@ -44,10 +44,10 @@
       "titulo": "Adaptador de entrada: la API HTTP",
       "puntos": 20,
       "extra": false,
-      "ok": false,
-      "primeraVez": null,
-      "ultima": "2026-10-31T16:18:18.984Z",
-      "comprobaciones": "1/12",
+      "ok": true,
+      "primeraVez": "2026-10-31T16:45:16.977Z",
+      "ultima": "2026-10-31T16:45:16.977Z",
+      "comprobaciones": "12/12",
       "evidencia": ""
     },
     "4": {
