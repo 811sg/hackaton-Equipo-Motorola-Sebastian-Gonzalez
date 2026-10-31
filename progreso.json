@@ -4,7 +4,7 @@
   "integrantes": [
     "Sebastian Gonzalez"
   ],
-  "actualizado": "2026-10-31T16:45:16.878Z",
+  "actualizado": "2026-10-31T16:46:12.816Z",
   "entorno": {
     "node": "v24.2.0",
     "sistema": "win32 x64"
@@ -54,10 +54,10 @@
       "titulo": "Composición y regla de dependencias",
       "puntos": 15,
       "extra": false,
-      "ok": false,
-      "primeraVez": null,
-      "ultima": "2026-10-31T16:18:18.999Z",
-      "comprobaciones": "1/6",
+      "ok": true,
+      "primeraVez": "2026-10-31T16:46:12.901Z",
+      "ultima": "2026-10-31T16:46:12.901Z",
+      "comprobaciones": "6/6",
       "evidencia": ""
     }
   }

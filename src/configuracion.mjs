@@ -24,6 +24,19 @@ import { crearRepositorioMemoria } from './adaptadores/salida/repositorio-memori
 import { crearApi } from './adaptadores/entrada/http.js';
 
 export function componer(entorno = process.env) {
-  // TODO etapa 4: elegir el repositorio según entorno.ALMACEN, construir los casos de uso y la API, y leer PORT.
-  throw new Error('TODO etapa 4: componer');
+  const almacen = entorno.ALMACEN || 'memoria';
+  const puerto = entorno.PORT ? Number(entorno.PORT) : 3000;
+
+  let repositorio;
+  if (almacen === 'memoria') {
+    repositorio = crearRepositorioMemoria();
+  } else if (almacen === 'archivo') {
+    repositorio = crearRepositorioArchivo(entorno.DATOS || 'datos/evaluaciones.json');
+  } else {
+    throw new Error(`ALMACEN desconocido: «${almacen}». Los valores válidos son «memoria» y «archivo».`);
+  }
+
+  const casos = crearCasosDeUso({ repositorio });
+  const servidor = crearApi(casos);
+  return { servidor, puerto, almacen };
 }
