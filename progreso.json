@@ -1,0 +1,64 @@
+{
+  "esquema": 1,
+  "equipo": "Motorola",
+  "integrantes": [
+    "Sebastian Gonzalez"
+  ],
+  "actualizado": "2026-10-31T16:34:13.603Z",
+  "entorno": {
+    "node": "v24.2.0",
+    "sistema": "win32 x64"
+  },
+  "etapas": {
+    "0": {
+      "titulo": "Contenedor listo",
+      "puntos": 10,
+      "extra": false,
+      "ok": true,
+      "primeraVez": "2026-10-31T16:32:26.673Z",
+      "ultima": "2026-10-31T16:34:14.874Z",
+      "comprobaciones": "2/2",
+      "evidencia": "docker 29.9.2"
+    },
+    "1": {
+      "titulo": "Casos de uso",
+      "puntos": 15,
+      "extra": false,
+      "ok": false,
+      "primeraVez": null,
+      "ultima": "2026-10-31T16:18:18.861Z",
+      "comprobaciones": "1/9",
+      "evidencia": ""
+    },
+    "2": {
+      "titulo": "Adaptadores de salida",
+      "puntos": 15,
+      "extra": false,
+      "ok": false,
+      "primeraVez": null,
+      "ultima": "2026-10-31T16:18:18.870Z",
+      "comprobaciones": "0/15",
+      "evidencia": ""
+    },
+    "3": {
+      "titulo": "Adaptador de entrada: la API HTTP",
+      "puntos": 20,
+      "extra": false,
+      "ok": false,
+      "primeraVez": null,
+      "ultima": "2026-10-31T16:18:18.984Z",
+      "comprobaciones": "1/12",
+      "evidencia": ""
+    },
+    "4": {
+      "titulo": "Composición y regla de dependencias",
+      "puntos": 15,
+      "extra": false,
+      "ok": false,
+      "primeraVez": null,
+      "ultima": "2026-10-31T16:18:18.999Z",
+      "comprobaciones": "1/6",
+      "evidencia": ""
+    }
+  }
+}
