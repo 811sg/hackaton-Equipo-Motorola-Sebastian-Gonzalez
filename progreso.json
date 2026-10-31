@@ -4,7 +4,7 @@
   "integrantes": [
     "Sebastian Gonzalez"
   ],
-  "actualizado": "2026-10-31T16:43:06.242Z",
+  "actualizado": "2026-10-31T16:44:30.029Z",
   "entorno": {
     "node": "v24.2.0",
     "sistema": "win32 x64"
@@ -34,10 +34,10 @@
       "titulo": "Adaptadores de salida",
       "puntos": 15,
       "extra": false,
-      "ok": false,
-      "primeraVez": null,
-      "ultima": "2026-10-31T16:18:18.870Z",
-      "comprobaciones": "0/15",
+      "ok": true,
+      "primeraVez": "2026-10-31T16:44:30.069Z",
+      "ultima": "2026-10-31T16:44:30.069Z",
+      "comprobaciones": "15/15",
       "evidencia": ""
     },
     "3": {

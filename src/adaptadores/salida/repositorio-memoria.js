@@ -11,20 +11,36 @@
  * Comprueba con:   npm run verificar -- 2
  */
 
+const copia = (evaluacion) => ({ ...evaluacion });
+
 export function crearRepositorioMemoria() {
-  // TODO etapa 2: un arreglo con las evaluaciones, y los cuatro métodos del puerto.
+  let evaluaciones = [];
+
   return {
     listar() {
-      throw new Error('TODO etapa 2: listar');
+      return evaluaciones.map(copia);
     },
     obtener(id) {
-      throw new Error('TODO etapa 2: obtener');
+      const encontrada = evaluaciones.find((e) => e.id === id);
+      return encontrada ? copia(encontrada) : undefined;
     },
     guardar(evaluacion) {
-      throw new Error('TODO etapa 2: guardar');
+      if (evaluacion.id === undefined || evaluacion.id === null) {
+        const mayor = evaluaciones.reduce((max, e) => Math.max(max, e.id), 0);
+        const nueva = { ...evaluacion, id: mayor + 1 };
+        evaluaciones.push(nueva);
+        return copia(nueva);
+      }
+      const guardada = copia(evaluacion);
+      const posicion = evaluaciones.findIndex((e) => e.id === evaluacion.id);
+      if (posicion === -1) evaluaciones.push(guardada);
+      else evaluaciones[posicion] = guardada;
+      return copia(guardada);
     },
     eliminar(id) {
-      throw new Error('TODO etapa 2: eliminar');
+      const antes = evaluaciones.length;
+      evaluaciones = evaluaciones.filter((e) => e.id !== id);
+      return evaluaciones.length < antes;
     },
   };
 }
