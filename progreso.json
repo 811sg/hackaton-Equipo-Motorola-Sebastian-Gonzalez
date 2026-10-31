@@ -4,7 +4,7 @@
   "integrantes": [
     "Sebastian Gonzalez"
   ],
-  "actualizado": "2026-10-31T16:34:13.603Z",
+  "actualizado": "2026-10-31T16:43:06.242Z",
   "entorno": {
     "node": "v24.2.0",
     "sistema": "win32 x64"
@@ -24,10 +24,10 @@
       "titulo": "Casos de uso",
       "puntos": 15,
       "extra": false,
-      "ok": false,
-      "primeraVez": null,
-      "ultima": "2026-10-31T16:18:18.861Z",
-      "comprobaciones": "1/9",
+      "ok": true,
+      "primeraVez": "2026-10-31T16:43:06.252Z",
+      "ultima": "2026-10-31T16:43:06.252Z",
+      "comprobaciones": "9/9",
       "evidencia": ""
     },
     "2": {
