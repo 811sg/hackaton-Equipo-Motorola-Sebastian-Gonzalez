@@ -4,7 +4,7 @@
   "integrantes": [
     "Sebastian Gonzalez"
   ],
-  "actualizado": "2026-10-31T16:46:12.816Z",
+  "actualizado": "2026-10-31T16:52:32.251Z",
   "entorno": {
     "node": "v24.2.0",
     "sistema": "win32 x64"
@@ -59,6 +59,16 @@
       "ultima": "2026-10-31T16:46:12.901Z",
       "comprobaciones": "6/6",
       "evidencia": ""
+    },
+    "5": {
+      "titulo": "Imagen: la API en un contenedor",
+      "puntos": 25,
+      "extra": false,
+      "ok": true,
+      "primeraVez": "2026-10-31T16:48:29.253Z",
+      "ultima": "2026-10-31T16:52:36.595Z",
+      "comprobaciones": "4/4",
+      "evidencia": "docker 29.9.2; imagen sha256:137e7e0cd380"
     }
   }
 }
