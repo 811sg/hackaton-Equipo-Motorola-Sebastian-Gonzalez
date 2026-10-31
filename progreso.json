@@ -4,7 +4,7 @@
   "integrantes": [
     "Sebastian Gonzalez"
   ],
-  "actualizado": "2026-10-31T16:53:51.684Z",
+  "actualizado": "2026-10-31T17:06:21.500Z",
   "entorno": {
     "node": "v24.2.0",
     "sistema": "win32 x64"
@@ -84,11 +84,11 @@
       "titulo": "Extra: el mismo resultado con los dos motores",
       "puntos": 10,
       "extra": true,
-      "ok": false,
-      "primeraVez": null,
-      "ultima": "2026-10-31T16:53:52.030Z",
-      "comprobaciones": "0/1",
-      "evidencia": "docker 29.9.2"
+      "ok": true,
+      "primeraVez": "2026-10-31T17:06:33.382Z",
+      "ultima": "2026-10-31T17:06:33.382Z",
+      "comprobaciones": "7/7",
+      "evidencia": "docker 29.9.2 + podman 5.8.3"
     }
   }
 }
